@@ -23,8 +23,8 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  hostname: {{ postgres.address.private }}
-  database: {{ postgres.database }}
+  hostname:
+  database:
   pool: 5
-  username: {{ postgres.username }}
-  password: {{ postgres.password }}
+  username:
+  password:
