@@ -24,7 +24,7 @@ production:
   adapter: postgresql
   encoding: unicode
   hostname:
-  database:
+  database: elastic_box_demo
   pool: 5
   username:
   password:

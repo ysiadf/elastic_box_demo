@@ -24,7 +24,7 @@ production:
   adapter: postgresql
   encoding: unicode
   hostname: {{ postgres.address.private }}
-  database: {{ postgres.database }}
+  database: elastic_box_demo
   pool: 5
   username: {{ postgres.username }}
   password: {{ postgres.password }}
