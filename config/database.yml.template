@@ -23,7 +23,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  hostname: {{ postgres.address.private }}
+  host: {{ postgres.address.private }}
   database: elastic_box_demo
   pool: 5
   username: {{ postgres.username }}
