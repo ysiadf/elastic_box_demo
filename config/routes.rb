@@ -5,7 +5,8 @@ Rails.application.routes.draw do
   resources :post_attachments
 
   resources :posts
-
+  get 'rails' => 'posts#index'
+  
   root 'posts#index'
 
   #mount Resque::Server.new, :at => "/resque"
